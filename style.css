@@ -1,0 +1,44 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        border: 3px red solid;
+  }
+  
+  .quick-select-slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border: 3px red solid;
+  }
+  
+  .carousel-slide-section {
+    display: flex;
+  
+  }
+  
+  .slide-container {
+    display: flex;
+  }
+  
+  .slide-container__slide {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .slide-container__slide-1 {
+    background-color: blue;
+  }
+  .slide-container__slide-2 {
+    background-color: green;
+  }
+  .slide-container__slide-3 {
+    background-color: red;
+  }
+  
+  
+  .slide-invisible {
+     display: none;
+  }
